@@ -5,15 +5,10 @@
 - 
 
 ## Description:
-API REST que realiza pagos integrando Paypal.
+REST API that integrates Paypal payments.
 
 
-#### Get all items
-```http
-  GET /api/products
-```
-
-#### Get products
+#### Create Payment
 See example payment with defined products:
 ```http
   GET /create-payment
